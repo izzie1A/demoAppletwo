@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "camera-af868": {
+      "hosting": {
+        "demoAppletwo": [
+          "demoappletwo"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "camera-af868"
+  }
+}
