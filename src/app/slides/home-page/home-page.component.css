@@ -1,0 +1,39 @@
+.homePosterFrame {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+
+    background-color: var(--dark);
+
+}
+
+.homePosterimg {
+    width: 100%;
+    max-height: 50vh;
+}
+.homePosterimgBackground{
+    position: absolute;
+    max-height: 50vh;
+    width: 100%;
+    /* opacity: 0.5; */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    filter: contrast(200%);
+
+    filter: grayscale(100%);
+    /* filter: sepia(100%) hue-rotate(190deg) saturate(500%); */
+}
+
+@media only screen and (min-width:1000px) {
+    .homePosterimg {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width:1500px) {
+    .homePosterimg {
+        width: 70%;
+    }
+}

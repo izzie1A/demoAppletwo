@@ -1,0 +1,18 @@
+<!-- <mat-toolbar color="primary"> -->
+<img >
+    <div class="navBar">
+    <div class="flex">
+        <mat-icon>local_fire_department</mat-icon>
+        <span>{{title}}</span>
+    </div>
+    <div class="navBarItemContainer ">
+        <div *ngFor="let x of itemArray">
+            <button class="navBarButton" routerLink="/{{x.url.toString()}}">
+                <a class="navBarButtonText">
+                    {{x.displayName}}
+                </a>
+            </button>
+        </div>
+    </div>
+</div>
+<!-- </mat-toolbar> -->
